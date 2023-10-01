@@ -1,0 +1,30 @@
+@media(max-width:800px){
+    .title_readyNext_NFT_Drop{
+        font-size: 50px;
+    }
+    .input_email{
+        max-width: 325px;
+    }
+}
+@media(max-width:600px){
+    .title_readyNext_NFT_Drop{
+        font-size: 40px;
+    }
+    .btn_sabscribe {
+        width: 140px;
+    }
+    .input_email{
+        max-width: 250px;
+    }
+}
+@media(max-width:440px){
+    .title_readyNext_NFT_Drop{
+        font-size: 28px;
+    }
+    .btn_sabscribe {
+        width: 110px;
+    }
+    .input_email{
+        max-width: 200px;
+    }
+}

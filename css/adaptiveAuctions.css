@@ -1,0 +1,40 @@
+@media(max-width:1205px){
+    .swiper{
+        width: 390px;
+        height: 525px;
+    }
+}
+@media(max-width:800px){
+    .title_auctions{
+        font-size: 50px;
+    }
+}
+@media(max-width:600px){
+    .title_auctions{
+        font-size: 40px;
+    }
+}
+@media(max-width:440px){
+    .swiper{
+        width: 300px;
+        max-height: 480px;
+    }
+    .auctions_virtual_art{
+        max-width: 300px;
+        max-height: 480px;
+    }
+    .title_auctions{
+        font-size: 28px;
+    }
+    .auctions_art {
+        width: 250px;
+        height: 240px;
+    }
+    ._conteiner {
+        padding: 5px;
+    }
+    .block_title_auctions::before {
+        width: 90px;
+        height: 90px;
+    }
+}

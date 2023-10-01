@@ -1,0 +1,105 @@
+/*---------------------title------------------------------------------*/
+.section_howItWorks{
+    margin-top: 150px;
+}
+.block_title_howItWorks{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title_howItWorks{
+    font-family: Oxanium;
+    font-weight: 700;
+    font-size: 64px;
+
+    color: #F5FBF2;
+}
+/*---------------------block svg--------------------------------------------------*/
+.box_svg_howItWorks{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.block_setUp_Wallet,
+.block_creative_collections,
+.add_NFTs,
+.list_ForSale{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 106px;
+    border-radius: 50%;
+    margin: 20px auto 0 auto;
+
+    background-color: #372839;
+}
+.background_svg_visible{
+    overflow: visible;
+}
+.background_img_svg_HowItWorks{
+    stroke-dashoffset: 600;
+    stroke-dasharray: 600;
+    animation: walletBackground 3s infinite, bounce 2s infinite;;
+}
+@keyframes walletBackground{
+    to{
+        stroke-dashoffset: 0;
+         fill: aqua;
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); 
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-10px); 
+    }
+}
+
+/*-----------------------------vector------------------------------------*/
+.background_vector {
+    fill: none;
+    stroke: #948293; 
+    stroke-width: 1;
+    stroke-dasharray: 310;
+    stroke-dashoffset: 880;
+    animation: background_vector 3s infinite, colorChange 3s infinite;;
+}
+@keyframes background_vector {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes colorChange {
+    0% {
+        stroke: #cf04ea;
+        transform: translateX(-50%);
+    }
+    100% {
+        stroke: #00def7;
+        transform: translateX(0%);
+    }
+}
+.svg_vector{
+
+    margin: 0px 0px 0px -25px;
+}
+
+/*----------------------------------------------------------*/
+.block_title_and_svg{
+    text-align: center;
+}
+
+.tex_howItWorks{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+
+    color: var(--primary-color, #ffb700);
+}

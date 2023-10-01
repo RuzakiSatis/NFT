@@ -1,0 +1,82 @@
+main{
+    max-width: 1320px;
+	padding: 25px;
+    margin: 150px auto 0 auto;
+    margin-bottom: 120px;
+}
+._title_creatorsTop{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: Oxanium;
+
+    color: antiquewhite;
+}
+.scroll_content_title{
+	opacity: 0;
+	transform: translate(-100%, 0px);
+	transition: all 2s ease 0s;
+	
+}
+.scroll_content_title._active{
+	opacity: 1;
+	transform: translate(0px, 0px);
+}
+/*---------------------------------------------------list_nft---------------------------------------------*/
+.list_nft{
+    margin-top: 120px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list_nft a{
+    z-index: 1;
+}
+.nft_card{
+    height: 350px;
+    width: 280px;
+    transition: transform .4s;
+    padding: 15px;
+
+    background: #3D2942;
+    border: solid 2px #00000014;
+    box-shadow: inset 2px 2px 20px 4px rgba(0, 0, 0, 0.292), 7px 7px 20px 0px rgb(0 0 0), 5px 4px 5px 1px rgb(0, 204, 255);
+}
+.nft_card:hover{
+    transform: scale(1.03);
+}
+.nft_card img{
+    width: 250px;
+    height: 200px;
+}
+.card_info_block{
+    display: flex;
+    margin-top: 10px;
+}
+.card_info_block img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.info_block{
+    margin: 10px 0 0 auto;
+}
+.info_block h2,
+.card_block_bid h3,
+.card_block_bid p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Oxanium;
+}
+.info_block p{
+    line-height: 20px;
+    font-family: Oxanium;
+
+    color: #a5a1a5;
+}
+.card_block_bid{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

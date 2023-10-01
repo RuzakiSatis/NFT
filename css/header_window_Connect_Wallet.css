@@ -1,0 +1,125 @@
+#header_window_ConnectWallet{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 5;
+
+    background-color: #000000ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#window_ConnectWallet_block{
+    position: relative;
+    width: 416px;
+    height: 572px;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 10;
+
+    box-shadow: 8px 8px 24px 0px #ff0055;
+    background-color: rgba(159, 1, 78, 1);
+    background-image: radial-gradient(circle, rgba(159, 1, 78, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+#header_window_ConnectWallet.active{
+    visibility: visible;
+    opacity: 1;
+}
+/*----------------------------------------------------------------------------------------*/
+.ConnectWallet_block_title{
+    display: flex;
+    justify-content: center;   
+}
+._title_ConnectWallet{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Oxanium;
+
+    color: bisque;
+}
+#_block_close_window{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.close_window_svg:hover{
+    cursor: pointer;
+    fill: rgb(167 0 45);
+}
+.ConnectWallet_block_title::before{
+    content: "";
+    display: block;
+    position: absolute;
+ 
+}
+._block_Wallet{
+    margin-top: 50px;
+}
+._Wallet_{
+    display: flex;
+    margin-top: 15px;
+}
+._Wallet_img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+._Wallet_types{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-left: 25px;
+    font-family: Oxanium;
+
+    color: bisque;
+}
+._Wallet_types:hover{
+    color: rgb(255, 127, 127);
+}
+._Wallet_img_KaiKas{
+    width: 30px;
+    height: 30px;
+}
+/*----------------------------------------window two-----------------------------------------------*/
+#header_window_Two_ConnectWallet{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 5;
+
+    background-color: #000000ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header_window_Two_ConnectWallet.active{
+    visibility: visible;
+    opacity: 1;
+}
+#window_Two_ConnectWallet_block{
+    position: relative;
+    width: 416px;
+    height: 572px;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 10;
+
+    box-shadow: 8px 8px 24px 0px #ff0055;
+    background-color: rgba(159, 1, 78, 1);
+    background-image: radial-gradient(circle, rgba(159, 1, 78, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+#_block_Two_close_window{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

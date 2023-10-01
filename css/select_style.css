@@ -1,0 +1,181 @@
+.custom-select {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+}
+.custom-select select {
+    display: none;
+
+}
+.custom-select-label{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Work Sans;
+    width: 180px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #868585;
+
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+.custom-select-options{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    border-radius: 0px 0px 10px 10px;
+    
+    color: #868585;
+    background-color: rgba(0, 0, 0, 0.719);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+
+}
+
+.custom-select-options div {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.custom-select-options div:hover {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+.custom-select-options_two div {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.select_svg{
+    fill: #00ccff;
+}
+/*-------------------------------------------------------------------two-----------------------------------------*/
+.custom-select_two{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+.custom-select_two select {
+    display: none;
+
+}
+
+.custom-select-label_two{
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: Work Sans;
+    width: 90px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #868585;
+
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+
+
+.custom-select-options_two{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 90px;
+    border-radius: 0px 0px 10px 10px;
+
+    color: #868585;
+    background-color: rgba(0, 0, 0, 0.719);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+
+}
+
+.custom-select-options_two div {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.custom-select-options_two div:hover {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+.custom-select-options_two div {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+/*---------------------------------------------three----------------------------------------------------*/
+.custom-select_three{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+
+}
+
+.custom-select_three select {
+    display: none;
+
+}
+
+.custom-select-label_three{
+    font-weight: 500px;
+    font-size: 18px;
+    font-family: Work Sans;
+    width: 90px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #868585;
+
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+
+
+.custom-select-options_three{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 90px;
+    border-radius: 0px 0px 10px 10px;
+
+    color: #868585;
+    background-color: rgba(0, 0, 0, 0.719);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+
+}
+
+.custom-select-options_three div {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.custom-select-options_three div:hover {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+.custom-select-options_three div {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+

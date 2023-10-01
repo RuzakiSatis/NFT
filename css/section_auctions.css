@@ -1,0 +1,309 @@
+
+/*---------------------------------------slider---------------------------------------------*/
+.block_slider_auctions{
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;   
+}
+.swiper{
+    max-width: 1160px;
+    height: 525px;
+}
+.auctions_virtual_art{
+    width: 390px;
+    height: 525px;
+    padding: 25px;
+
+    background-color: #3D2942;
+}
+.block_art_time{
+    position: relative;
+}
+.auctions_art{
+    max-width: 340px;
+    max-height: 285px;
+}
+.block_time,
+.block_time_two,
+.block_time_three,
+.block_time_four,
+.block_time_five,
+.block_time_six,
+.block_time_seven,
+.block_time_eight,
+.block_time_nine,
+.block_time_ten,
+.block_time_eleven,
+.block_time_twelve{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    height: 50px;
+    z-index: 2;
+    padding: 15px 35px;
+    font-size: 22px;
+    color: #F5FBF2;
+
+    opacity: 0.95;
+    background: linear-gradient(177deg, #8613A5 0%, rgba(250, 250, 250, 0.65) 100%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(22.5px);
+}
+.info_auctions_virtual_art{
+    display: flex;
+    margin-top: 20px;
+    gap: 13px;
+}
+.title_art{
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 22px;
+
+    color: #F5FBF2;
+}
+.by_wzard{
+    font-size: 16px;
+
+    color: #BDAAC1;
+}
+.block_increment_decrement_inputBox{
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+.increment_decrement,
+.increment_decrement_two,
+.increment_decrement_three,
+.increment_decrement_four,
+.increment_decrement_five,
+.increment_decrement_six,
+.increment_decrement_seven,
+.increment_decrement_eight,
+.increment_decrement_nine,
+.increment_decrement_ten,
+.increment_decrement_eleven,
+.increment_decrement_twelve{
+    transition: all 1s;
+}
+.increment_decrement,
+.increment_decrement_two,
+.increment_decrement_three,
+.increment_decrement_four,
+.increment_decrement_five,
+.increment_decrement_six,
+.increment_decrement_seven,
+.increment_decrement_eight,
+.increment_decrement_nine,
+.increment_decrement_ten,
+.increment_decrement_eleven,
+.increment_decrement_twelve:hover{
+    cursor: pointer;
+}
+#input_box,
+#input_box_two,
+#input_box_three,
+#input_box_four,
+#input_box_five,
+#input_box_six,
+#input_box_seven,
+#input_box_eight,
+#input_box_nine,
+#input_box_ten,
+#input_box_eleven,
+#input_box_twelve{
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #76607A;
+}
+.profile_image{
+    width: 54px;
+    height: 54px;
+}
+.info_curentBid{
+    display: flex;
+
+    margin-top: 20px;
+}
+.title_CurrentBid{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #C6BFC8;
+}
+.ETH_CurrentBid{
+    font-family: Oxanium;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: auto;
+
+    color: #F5FBF2;
+}
+.block_button_PlaceBid{
+    margin-top: 25px;
+    text-align: center;
+}
+.button_PlaceBid{
+    color: #4100fe;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgb(0 182 255 / 0%), 
+     7px 7px 20px 0px rgb(11 8 112), 
+     4px 4px 5px 0px rgb(6 244 224); 
+    outline: none;
+}
+.btn-PlaceBid{
+    width: 150px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgb(0 177 255) 0%, rgb(251 2 149) 100%);
+}
+.btn-PlaceBid:hover {
+    color: #1916de;
+    background: transparent;
+    
+}
+.btn-PlaceBid:before,
+.btn-PlaceBid:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #d500ff;
+    box-shadow:
+     -1px -1px 5px 0px #6400ff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #008cff;
+    transition:400ms ease all;
+    
+}
+.btn-PlaceBid:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.btn-PlaceBid:hover:before,
+.btn-PlaceBid:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+/*----------------------------button---------------------------------------*/
+ .block_button_viewAll{
+    text-align: center;
+    margin-top: 100px;
+}
+.button_viewAll{
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 20px 4px rgb(255 0 0 / 88%), 
+    7px 7px 20px 0px rgb(255 0 217), 
+    4px 4px 5px 0px rgb(255 0 0);
+    outline: none;
+}
+.btn-viewAll{
+    background: rgb(0,172,238);
+    background: linear-gradient(0deg, rgb(185 0 252) 0%, rgb(4 0 255 / 46%) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.btn-viewAll span{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.btn-viewAll:before,
+.btn-viewAll:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+    
+    box-shadow: inset 2px 2px 20px 4px 
+    rgb(172 0 144 / 88%), 
+    7px 7px 20px 0px rgb(255 0 217), 
+    4px 4px 5px 0px rgb(255 0 240);
+    outline: none;
+}
+.btn-viewAll:before {
+    height: 0%;
+    width: 2px;
+}
+.btn-viewAll:after {
+    width: 0%;
+    height: 2px;
+}
+.btn-viewAll:hover{
+     background: transparent;
+    box-shadow: none;
+}
+.btn-viewAll:hover:before {
+    height: 100%;
+}
+.btn-viewAll:hover:after {
+    width: 100%;
+}
+.btn-viewAll span:hover{
+     color: rgba(2,126,251,1);
+     font-weight: 600;
+}
+.btn-viewAll span:before,
+.btn-viewAll span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+    box-shadow: inset 2px 2px 20px 20px rgb(255 0 137), 
+    2px 7px 20px 0px rgb(255 0 0), 
+    4px 5px 7px 1px rgb(255 0 0);
+    outline: none;
+}
+.btn-viewAll span:before {
+    width: 2px;
+    height: 0%;
+}
+.btn-viewAll span:after {
+    width: 0%;
+    height: 2px;
+}
+.btn-viewAll span:hover:before {
+    height: 100%;
+}
+.btn-viewAll span:hover:after {
+    width: 100%;
+} 
+  

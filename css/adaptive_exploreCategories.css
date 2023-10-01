@@ -1,0 +1,103 @@
+@media(max-width:1470px){
+    .block_slider_Three{
+        max-width: 335px;
+        max-height: 415px;
+    }
+    .block_slider_Three .auctions_art {
+        max-width: 285px;
+    }
+}
+@media(max-width:1315px){
+    .block_slider_Three .auctions_art {
+        max-width: 255px;
+    }
+    .block_slider_Three {
+        max-width: 305px;
+        max-height: 400px;
+    }
+}
+@media(max-width:1120px){
+    .block_slider_Three{
+        max-width: 390px;
+        max-height: 475px;
+    }
+    .block_slider_Three .auctions_art {
+        max-width: 340px;
+    }
+}
+@media(max-width: 980px){
+    .block_slider_Three{
+        max-width: 335px;
+        max-height: 415px;
+    }
+    .block_slider_Three .auctions_art {
+        max-width: 285px;
+    }
+    .slider_three .slick-track {
+        margin: 0 0 0 -20px;
+    }
+}
+@media(max-width: 861px){
+    .block_slider_Three{
+        max-width: 390px;
+        max-height: 475px;
+    }
+    .block_slider_Three .auctions_art {
+        max-width: 340px;
+    }
+
+}
+@media(max-width:800px){
+    .title_ExploreBYCategories{
+        font-size: 45px;
+    }
+}
+@media(max-width:600px){
+    .title_ExploreBYCategories{
+        font-size: 40px;
+    }
+}
+@media(max-width:580px){
+    .block_slider_Three{
+        max-width: 335px;
+        max-height: 415px;
+    }
+    .block_slider_Three .auctions_art {
+        max-width: 285px;
+    }
+}
+@media(max-width:520px){
+    .block_slider_Three .auctions_art {
+        max-width: 255px;
+    }
+    .block_slider_Three {
+        max-width: 305px;
+        max-height: 420px;
+    }
+    .slider_three .slick-track {
+        margin: 0px;
+    }
+    .slider_three {
+        position: relative;
+        overflow: hidden;
+        margin: 100px 0px 0px -45px;
+    }
+    .title_ExploreBYCategories{
+        font-size: 32px;
+    }
+}
+@media(max-width: 440px){
+    .title_ExploreBYCategories{
+        font-size: 28px;
+        line-height: 85px;
+    }
+    .block_title_ExploreBYCategories::before{
+        width: 90px;
+        height: 90px;
+    }
+}
+@media(max-width:323px){
+    .title_ExploreBYCategories{
+        font-size: 26px;
+    }
+}

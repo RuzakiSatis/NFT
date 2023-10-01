@@ -1,0 +1,89 @@
+
+@media(max-width:1140px){
+    .activiti_block_one,
+    .activiti_block_two {
+        width: 500px;
+    }
+    .activiti_block_one::before,
+    .activiti_block_two::before {
+        content: "";
+        display: block;
+        width: 450px;
+    }
+}
+@media(max-width:1050px){
+    .profil_creator-flex {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .collection-activity_flex-block {
+       justify-content: left;
+    }
+    #window_activity {
+        left: 0px;
+    }
+    ._creator-flex_block {
+        margin-left: 7%;
+    }
+    #colection_window {
+        justify-content: left;
+    }
+}
+@media(max-width:700px){
+    #wrapper{
+        overflow: hidden;
+    }
+    .collection-activity_flex-block {
+        gap: 50px;
+    }
+}
+@media(max-width:600px){
+    .VirtualArt_nick p {
+        line-height: 45px;
+    }
+    .activiti_block_one,
+    .activiti_block_two {
+        width: 300px;
+        height: 260px;
+    }
+    ._block_one-Price {
+        flex-wrap: wrap;
+    }
+    ._block_one-Price {
+        gap: 20px;
+    }
+    .VirtualArt-Sale h3, .price h2 {
+        font-size: 14px;
+        font-family: Oxanium;
+        line-height: 23px;
+    }
+    .activiti_block_one::before, .activiti_block_two::before {
+        content: "";
+        display: block;
+        width: 255px;
+    }
+    .collection-activity_flex-block{
+        flex-wrap: wrap;
+    }
+    #window_activity {
+        top: 220px;
+    }
+}
+@media(max-width:460px){
+    ._creator-flex_block::before {
+        width: 300px;
+    }
+    .block_collection-activity {
+        margin-left: 25px;
+    }
+}
+@media(max-width:400px){
+    ._creator-flex_block {
+        margin-left: -15px;
+    }
+    .block_collection-activity {
+        margin-left: -15px;
+    }
+}
+@media(max-width:170px){}
+

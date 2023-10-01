@@ -1,0 +1,146 @@
+#window_Your_bid,
+.window_Your_bid{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 5;
+
+    background-color: #000000ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#window_Your_bid.active,
+.window_Your_bid.active{
+    opacity: 1;
+    visibility: visible;
+}
+#Your_bid_block,
+.Your_bid_block{
+    position: relative;
+    width: 416px;
+    height: 475px;
+    border-radius: 10px;
+    padding: 25px;
+    z-index: 10;
+
+    box-shadow: 8px 8px 24px 0px #ff0055;
+    background-color: rgba(159, 1, 78, 1);
+    background-image: radial-gradient(circle, rgba(159, 1, 78, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+/*-----------------------------------------------------------------------------*/
+.bid_block_title{
+    margin-top: -35px;
+    display: flex;
+    justify-content: center; 
+}
+.bid_block_title_style{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Oxanium;
+
+    color: bisque;
+}
+.bid_block_title::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 90px;
+    width: 300px;
+    height: 3px;
+    border-radius: 10px;
+
+    background-color: rgba(255, 0, 0, 1);
+    background-image: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(107, 0, 60, 1) 100%);
+}
+._block_current_bid{
+    display: flex;
+    margin-top: 50px;
+}
+._bid_text{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+._bid_ETH{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Oxanium;
+    margin-left: auto;
+
+    color: aliceblue;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+.bid_block_input{
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.input_bid{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+
+    color: aliceblue;
+    background-image: radial-gradient(circle, rgba(159, 1, 78, 1) 0%, rgba(0, 0, 0, 1) 360%);
+}
+.input_bid_line{
+    position: absolute;
+    bottom: 0;
+    right: 131px;
+    width: 85px;
+    height: 3px;
+    background: linear-gradient(to left, #ffbb00, #ff0000);
+    animation: animation_border_bottom 2s linear infinite;
+}
+
+@keyframes animation_border_bottom{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.input_ETH{
+    margin-top: 7px;
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+.block_button_your_bid{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.your_bid_button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+
+    border: solid 2px #000000;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(107, 0, 60, 1) 100%);
+}
+.your_bid_button:hover{
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 1);
+    background-image: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgb(0, 0, 0) 100%);
+}

@@ -1,0 +1,100 @@
+.block_load_window{
+    margin: 100px 0 0 auto;
+}
+#load_window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 468px;
+    height: 413px;
+    padding: 81.985px 9.25px;
+
+    border-radius: 20px;
+
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+#load_window img{
+    z-index: 1;
+    max-width: 89%;
+    height: auto;
+    margin: 0px 0px 0 10px;
+}
+.load_window_block{
+    height: 5%;
+}
+.load_window_block_svg{
+    display: flex;
+    justify-content: center;
+}
+.window_block_png{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+}
+.block_png_text{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.load_window_input{
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px 0 0px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file span {
+    width: 150px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 14px;
+	vertical-align: middle;
+    font-weight: 500;
+	color: rgb(255, 254, 254);
+	text-align: center;
+	border-radius: 4px;
+	line-height: 22px;
+	height: 45px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+    border-radius: 10px;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3, 126, 174), 7px 7px 20px 0px rgba(0, 0, 0, 0.49), 5px 4px 5px 0px rgb(0 206 255);
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+.input-file input[type=file]:focus + span {
+    background-color: rgba(0, 0, 0, 0.147);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3, 126, 174), 7px 7px 20px 0px rgba(0, 0, 0, 0.49), 5px 4px 5px 0px rgb(0 206 255);
+
+}
+.input-file:hover span {
+    color: rgb(47, 41, 41);
+	background-color: rgba(89, 131, 252, 1);
+    background-image: linear-gradient(90deg, rgb(89, 130, 252) 0%, rgba(203, 255, 0, 1) 100%);
+}
+.input-file input[type=file]:disabled + span {
+	background-color: #eee;
+}

@@ -1,0 +1,107 @@
+#window_activity{
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    visibility: hidden;
+}
+#window_activity.active{
+    visibility: visible;
+}
+/*------------------------------------------------------------------------------------------*/
+.activiti_block_one{
+    position: relative;
+    width: 600px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 25px;
+
+    background: #3d294200;
+    border: solid 2px #00000014;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 5px 4px 5px 1px rgb(0, 204, 255);
+}
+.activiti_block_two{
+    position: relative;
+    margin-top: 100px;
+    width: 600px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 25px;
+
+    background: #3d294200;
+    border: solid 2px #00000014;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 5px 4px 5px 1px rgb(0, 204, 255);
+}
+._block_one-VirtualArt{
+    display: flex;
+    gap: 25px;
+}
+._block_one-VirtualArt img{
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+}
+.VirtualArt_nick h3{
+    font-size: 20px;
+    font-family: Oxanium;
+
+    color: rgb(255, 255, 255);
+}
+.VirtualArt_nick p{
+    font-size: 16px;
+    font-family: Oxanium;
+    line-height: 70px;
+
+    color: rgb(255, 255, 255);
+}
+.VirtualArt-Sale{
+    margin-left: auto;
+}
+.VirtualArt-Sale h2{
+    font-size: 20px;
+    font-family: Oxanium;
+    font-weight: 100;
+
+    color: aqua;
+}
+.VirtualArt-Sale h3,
+.price h2{
+    font-size: 20px;
+    font-family: Oxanium;
+    line-height: 30px;
+
+    color: rgb(255, 255, 255);
+}
+.VirtualArt-Sale p,
+.price p{
+    font-size: 16px;
+    font-family: Oxanium;
+
+
+    color: rgb(102, 95, 95);
+}
+.activiti_block_one::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 120px;
+    width: 555px;
+    height: 2px;
+    background-image: linear-gradient(90deg, rgba(255, 0, 4, 1) 0%, rgba(255, 219, 0, 1) 100%);
+}
+.activiti_block_two::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 120px;
+    width: 555px;
+    height: 2px;
+    background-image: linear-gradient(90deg, rgba(255, 0, 4, 1) 0%, rgba(255, 219, 0, 1) 100%);
+}
+/*-------------------------------------------------------------------------------------------------------------*/
+._block_one-Price{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}

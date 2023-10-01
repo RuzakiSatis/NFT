@@ -1,0 +1,148 @@
+.section_readyNext_NFT_Drop{
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
+.title_readyNext_NFT_Drop{
+    font-family: Oxanium;
+    font-size: 64px;
+    text-align: center;
+
+    color: #F5FBF2;
+}
+/*--------------------------------------input--------------------------------------------------*/
+.section_block_input_email{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_input_email{
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.input_email{
+    padding: 10px;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Work Sans;;
+
+    color: #fff;
+    opacity: 0.5;
+    background: linear-gradient(180deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%);
+}
+.email_border-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #ffbb00, #fd0000);
+    animation: animation_border_top 2s linear infinite;
+}
+@keyframes animation_border_top{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.email_border-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left, #ffbb00, #ff0000);
+    animation: animation_border_bottom 2s linear infinite;
+}
+@keyframes animation_border_bottom{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.email_border-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to left, #ffbb00, #e72626);
+    animation: animation_border_left 1s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animation_border_left{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+/*-------------------------------button--------------------------------------*/
+.button_sabscribe {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: Oxanium;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	 box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+	 7px 7px 20px 0px rgb(0, 0, 0),
+	 4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+.btn_sabscribe{
+    width: 195px;
+    height: 50px;
+    margin-left: -10px;
+	border: none;
+	overflow: hidden;
+	background: rgb(251,33,117);
+	background: linear-gradient(0deg, rgb(255 171 0) 0%, rgb(244 28 28) 100%);
+	color: #251928;
+}
+.btn_sabscribe:hover {
+	  text-decoration: none;
+	  color: #fff;
+}
+.btn_sabscribe:before {
+	  position: absolute;
+	  content: '';
+	  display: inline-block;
+	  top: -180px;
+	  left: 0;
+	  width: 30px;
+	  height: 100%;
+	  background-color: #171515;
+	  animation: shiny-btn1 2s ease-in-out infinite;
+}
+.btn_sabscribe:hover{
+	color: #000000;
+	opacity: .7;
+}
+.btn_sabscribe:active{
+	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+				-4px -4px 6px 0 rgba(116, 125, 136, .2), 
+	  inset -4px -4px 6px 0 rgba(255,255,255,.2),
+	  inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+@keyframes shiny-btn1 {
+	  0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+	  80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+	  81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+	  100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+}

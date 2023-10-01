@@ -1,0 +1,48 @@
+@media(max-width: 900px){
+    .header_button_menu_block{
+        margin-left: 25px;
+        padding-left: 25px;
+    }
+}
+@media(max-width: 790px){
+    #header_button_menu_block {
+        margin: 10px 0 0 30px;
+    }
+}
+@media(min-width:739px){
+    #header_button_two{
+        visibility: hidden;
+        transition: none;
+    } 
+}
+@media(max-width: 738px){
+    .header_menu_conteiner{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #header_block_burger_menu{
+        position: absolute;
+        top: 42px;
+        visibility: visible;
+        bottom: 80px;
+    }
+    .header_block_list_menu{
+        visibility: hidden;
+    }
+    #header_button_menu_block{
+        visibility: hidden;
+    }
+    .block_burger_menu_line{
+        position: absolute;
+        top: 0;
+        left: -50px;
+    }
+    .btn{
+        transition: none;
+    }
+    .btn span{
+        transition: none;
+    }
+}
+

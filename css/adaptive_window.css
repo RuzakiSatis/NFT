@@ -1,0 +1,45 @@
+@media(max-width: 500px){
+    #window_Two_ConnectWallet_block{
+        width: 300px;
+        height: 500px;
+    }
+    ._Wallet_types{
+        font-size: 17px;
+        line-height: 42px;
+    }
+    ._Wallet_img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .ConnectWallet_block_title{
+        justify-content: normal;
+    }
+    ._title_ConnectWallet{
+        font-size: 23px;
+    }
+    .ConnectWallet_block_title::before {
+        content: "";
+        display: block;
+        width: 248px;
+    }
+    .Your_bid_block{
+        max-width: 300px;
+    }
+    #Your_bid_block{
+        width: 300px;
+    }
+    .input_bid_line {
+        position: absolute;
+        bottom: 0;
+        right: 77px;
+    }
+    .bid_block_title_style {
+        font-size: 23px;
+    }
+    ._bid_text {
+        font-size: 18px;
+    }
+    ._bid_ETH {
+        font-size: 20px;
+    }
+}

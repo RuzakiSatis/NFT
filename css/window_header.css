@@ -1,0 +1,132 @@
+/*---------------------------backgroung window and button closse-----------------------------------------------*/
+#header_window_menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    z-index: 5;
+
+    background-color: rgb(20, 1, 15);
+}
+#header_window_menu::before{
+    content: "";
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    width: 0;
+    height: 0;
+    box-shadow: 0 0 330px 121px rgb(4, 212, 207);
+}
+#header_window_menu::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 350px;
+    box-shadow: 0 0 330px 121px rgb(200, 34, 34);
+}
+#header_window_menu.active{
+    visibility: visible;
+}
+#block_button_window_close{
+    position: relative;
+    left: 50%;
+    right: 50%;
+}
+.button_window_close {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    width: 5px;
+    height: 30px;
+    transform: rotate(50deg);
+    transition: transform 1s;
+    cursor: pointer;
+
+    background-color: #ffb700;
+}
+
+.button_window_close::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 30px;
+    transform: rotate(-100deg);
+    transition: transform 1s;
+    background-color: #ffb700;
+}
+/*-------------------------------list window---------------------------------------*/
+.header_block_list_menu_two{
+    text-align: center;
+    margin-top: 100px;
+}
+.link_list_two{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.header_button_menu_block_two{
+    text-align: center;
+    margin-top: 50px;
+}
+#header_button_two{
+    width: 195px;
+    height: 64px;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: 1ms;
+
+    box-shadow:inset 2px 2px 2px 0px rgb(255, 204, 0),
+     7px 7px 20px 0px rgb(255, 242, 0);
+    color: #ffb700;
+    background-image: linear-gradient(315deg, #f91f4e 0%, #b621fe 74%);
+}
+#header_button_two:hover{
+    color: #d61616;
+    box-shadow:inset 2px 2px 2px 0px rgb(0, 119, 255),
+     7px 7px 20px 0px rgb(0, 132, 255);
+}
+.header_list_menu_two{
+    list-style-type: none;
+}
+.button_list,
+.item_menu {
+    color: #b8d5ff;
+    text-decoration: none;
+    position: relative;
+}
+.button_list::before,
+.button_list::after,
+.item_menu::before,
+.item_menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #ffbf00;
+    transform-origin: center;
+    transition: width 0.5s ease;
+}
+.button_list::before,
+.item_menu::before {
+    transform: translateX(-50%);
+    background-image: linear-gradient(to left, #ffbf00 0%, #ffbf00 50%, transparent 50%);
+}
+.button_list::after,
+.item_menu::after {
+    transform: translateX(-50%);
+    background-image: linear-gradient(to right, #ffbf00 0%, #ffbf00 50%, transparent 50%);
+}
+.button_list:hover::before,
+.button_list:hover::after,
+.item_menu:hover::before,
+.item_menu:hover::after {
+    width: 100%;
+}

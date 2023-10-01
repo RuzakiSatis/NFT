@@ -1,0 +1,28 @@
+@media(max-width:850px){
+    .box_svg_howItWorks{
+        display: grid;
+        gap: 90px;
+    }
+    .svg_vector{
+        transform: rotate(90deg);
+        margin: 46px 0 0 0;
+    }
+    .block_title_and_svg {
+        margin-top: -50px;
+    }
+}
+@media(max-width:800px){
+    .title_howItWorks{
+        font-size: 50px;
+    }
+}
+@media(max-width:600px){
+    .title_howItWorks{
+        font-size: 40px;
+    }
+}
+@media(max-width:440px){
+    .title_howItWorks{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,246 @@
+/*---------------------------------------------------------parollax------------------------------*/
+.mouse-parallax {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+._background{
+    position: absolute;
+    transition: all 0.1s ease;  
+    background-color: #641c1f82;
+    height: 425px;
+    width: 110%;
+}
+.mouse-parallax-bg {
+    position: absolute;
+    background-image: url(../img/NFT\ Highlight.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 105%;
+    height: 425px;
+    transition: all 0.1s ease;  
+}
+
+/*-------------------------------------------------profil---------------------------------------------------------*/
+.profil_creator{
+    max-width: 1435px;
+	padding: 0 25px 25px 25px;
+	margin: 0 auto;
+    margin-bottom: 120px;
+    width: 100%; 
+}
+.profil_creator-flex{
+    display: flex;
+    gap: 50px;
+}
+._creator-flex_block{
+    position: relative;
+}
+._creator-flex_block img{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    border: solid 3px #fff200;
+
+    animation: colorChangeAnimation 4s infinite;
+}
+@keyframes colorChangeAnimation {
+    0% {
+      border: solid 3px #fff200;
+    animation: colorChangeAnimation 4s infinite; 
+    }
+    50% {
+      border: solid 3px rgb(0, 145, 255);
+    animation: colorChangeAnimation 4s infinite;
+    }
+    100%{
+      border: solid 3px #fff200;
+    animation: colorChangeAnimation 4s infinite;
+    }
+}
+._creator-flex_block-name{
+    margin-top: 50px;
+}
+._creator-flex_block-username{
+    margin-top: 30px;
+}
+._creator-flex_block-name h2{
+    font-size: 35px;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+._creator-flex_block-username p{
+    font-size: 20px;
+    font-family: Oxanium;
+
+    color: rgb(85, 95, 104);
+}
+._creator-flex_block::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 340px;
+    left: 0;
+    width: 400px;
+    height: 2px;
+
+    background-image: linear-gradient(90deg, rgba(255, 0, 4, 1) 0%, rgba(255, 219, 0, 1) 100%);
+}
+._creator-flex_block-ETH{
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    width: 300px;
+}
+._block-ETH_information h2{
+    font-size: 25px;
+    line-height: 75px;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+._block-ETH_information p{
+    font-size: 16px;
+    font-family: Oxanium;
+
+    color: rgb(128, 136, 143);
+}
+._creator-flex_block-Bio{
+    margin-top: 100px;
+}
+._creator-flex_block-Bio h2{
+    font-size: 25px;
+    line-height: 75px;
+    font-family: Oxanium;
+
+    color: rgb(173, 181, 187);
+}
+._creator-flex_block-Bio p{
+    font-size: 18px;
+    font-family: Oxanium;
+    line-height: 30px;
+
+    color: rgb(128, 136, 143);
+}
+/*------------------------------------------------------------------------------------------------*/
+.block_collection-activity{
+    position: relative;
+    margin-left: 65px;
+    min-height: 130vh;
+    height: 100%;
+}
+.collection-activity_flex-block{
+    display: flex;
+    justify-content: right;
+    gap: 100px;
+    margin-right: 50px;
+}
+.block-button_collection-activity{
+    position: relative;
+    z-index: 1;
+    width: 200px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: rgb(0 0 0 / 46%);
+    border: solid 2px #00ccff;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 4px 4px 5px 0px rgb(0 206 255);
+}
+.block-button_collection-activity a:hover{
+    color: #ddff00;
+}
+.button_collection-activity{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button_collection-activity a{
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: Oxanium;
+}
+.svg_button_collection-activity{
+    fill: #7000ff;
+}
+/*-------------------------------------nft cards----------------------------------------*/
+#colection_window{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0 0 auto;
+    gap: 25px;
+    visibility: visible;
+    opacity: 1;
+}
+#colection_window.active{
+    visibility: hidden;
+    opacity: 0;
+}
+._NFT-place_bid-card{
+    z-index: 1;
+    border-radius: 5px;
+    padding: 15px;
+    height: 350px;
+    width: 280px;
+    transition: transform .4s;
+
+    background: #3D2942;
+    border: solid 2px #00000014;
+    box-shadow: inset 2px 2px 20px 4px rgb(3 58 80), 7px 7px 20px 0px rgb(0 0 0), 5px 4px 5px 1px rgb(0, 204, 255);
+}
+._NFT-place_bid-card:hover{
+    transform: scale(1.03);
+}
+.place_bid-card_img{
+    width: 250px;
+    height: 200px;
+}
+._NFT-place_bid-card h3{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+.current-bid{
+    margin-top: 10px;
+    display: flex;
+}
+.current-bid p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+.current-bid h4{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Oxanium;
+
+    color: aliceblue;
+}
+.block_button-place_bid{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+._button_place_bid{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: solid 2px #00ccff;
+    color: aliceblue;
+    background-color: rgba(255, 0, 5, 1);
+    background-image: linear-gradient(90deg, rgb(126, 0, 2) 0%, rgba(0, 0, 0, 1) 100%);
+}
+._button_place_bid:hover{
+    border: solid 2px #eaff00;
+}

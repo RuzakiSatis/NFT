@@ -1,0 +1,171 @@
+@media(max-width: 1245px){
+    .main_block_One_title{
+        flex-wrap: wrap;
+    }
+    .main_block_left_title{
+        margin: 0 auto;
+        padding: 0 50px 50px 50px;
+    }
+    .main_block_blurr{
+        position: relative;
+        top: 50px;
+        right: 0;
+        height: 685px;
+        overflow: visible;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .main_block{
+        padding: 0;
+    }
+    .conteiner_current_bid{
+        margin: 0 auto;
+    }
+    .main_block_img_blurr{
+        margin: 0 auto;
+    }
+    .block_partners{
+        gap: 50px;
+        padding: 25px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 850px){
+    .main_title{
+        font-size: 55px;
+    }
+    .main_title span{
+        font-size: 55px;
+    }
+}
+@media(max-width: 713px){
+
+    .main_title{
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .main_title span{
+        font-size: 55px;
+        line-height: 66px;
+    }
+    .main_conteiner_income{
+        gap: 55px;
+    }
+}
+@media(max-width: 647px){
+    .main_block_blurr{
+        margin-top: 50px;
+    }
+    .main_title{
+        font-size: 45px;
+    }
+    .main_title span{
+        font-size: 45px;
+    }
+    .income_{
+        font-size: 28px;
+    }
+    .income_posibility{
+        font-size: 15px;
+    }
+}
+@media(max-width: 563px){
+    .main_block_blurr{
+        padding: 50px 0 0 0;
+    }
+}
+@media(max-width:500px){
+    .main_title{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .main_title span{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .income_{
+        font-size: 22px;
+    }
+    .income_posibility{
+        font-size: 13px;
+    }
+}
+@media(max-width: 450px){
+    .main_block_left_title{
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    #img_blurr{
+        padding-left: 20px;
+        width: 273px;
+    }
+    .conteiner_current_bid{
+        position: absolute;
+        top: 60px;
+        left: 25px;
+        width: 243px;
+        height: 70px;
+        padding-top: 5px;
+    }
+    .text_current_bid{
+        font-size: 10px;
+    }
+    .ETH_hrs{
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .confetti{
+        width: 150px;
+        height: 150px;
+    }
+    .candy{
+        width: 160px;
+    }
+    .block_confetti .confetti_candy:nth-child(1){
+        top: 55px;
+    }
+    .block_confetti .confetti_candy:nth-child(2){
+        bottom: 20px;
+        left: 17px;
+    }
+    .block_confetti .confetti_candy:nth-child(3){
+        bottom: 55px;
+        left: 135px;
+    }
+    .block_confetti .confetti_candy:nth-child(4){
+        top: 100px;
+        left: 135px;
+    }
+    .conteiner_artist_button{
+        bottom: -23px;
+        left: 20px;
+        width: 253px;
+        gap: 25px;
+    }
+    .artist{
+        font-size: 15px;
+    }
+    .wzard_a{
+        font-size: 15px;
+    }
+    .button_start_bid{
+        width: 110px;
+    }
+    .main_title{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .main_title span{
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .block_partners{
+        padding: 0;
+    }
+    .partners{
+        width: 240px;
+    }
+    .main_block{
+        margin-top: 160px;
+    }
+}

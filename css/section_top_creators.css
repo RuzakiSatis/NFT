@@ -1,0 +1,124 @@
+.section_top_creators{
+    margin-top: 120px;
+}
+.block_title_topCreators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block_title_topCreators::before{
+    content: "";
+    display: block;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(80, 0, 155);
+    -webkit-box-reflect: below -10px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+    animation: colorChangeAnimation 5s infinite;
+}
+@keyframes changeColor{
+    0% {
+        background-color: rgb(78, 0, 152);
+        -webkit-box-reflect: below -10px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+      animation: colorChangeAnimation 5s infinite; 
+      }
+      50% {
+        background-color: rgb(255, 0, 0);
+        -webkit-box-reflect: below -10px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+      animation: colorChangeAnimation 5s infinite;
+      }
+      100%{
+        background-color: rgb(78, 0, 152);
+        -webkit-box-reflect: below -10px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+      animation: colorChangeAnimation 5s infinite;
+      }
+}
+.title_topCreators{
+    font-family: Oxanium;
+    font-size: 64px;
+    font-weight: 700;
+    margin-left: -80px;
+    z-index: 1;
+
+    color: #fff;
+}
+/*----------------------------------------top creators----------------------------------------------*/
+.block_topCreators{
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.top_Creators_One,
+.top_Creators_Two,
+.top_Creators_Three,
+.top_Creators_Four{
+    position: relative;
+    width: 508px;
+    height: 156px;
+    margin-top: 56px;
+    padding: 26px 29px;
+    display: flex;
+
+    background: #302034;
+    box-shadow: 2px 0px 0px 0px #E03054 inset;
+
+}
+.top_Creators_One::before, 
+.top_Creators_Two::before,
+.top_Creators_Three::before,
+.top_Creators_Four::before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 130px;
+    width: 3px;
+    height: 100px;
+
+    background: #49374E;
+}
+.profile_image_four{
+    border-radius: 50%;
+}
+.informations_creators{
+    margin-left: 30px;
+}
+.Wzard_Dee{
+    font-family: Oxanium;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+
+    color: #F5FBF2;
+}
+.ETH_Creators{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+
+    color: #BDAAC1;
+}
+.items_number{
+    margin-left: auto;
+    text-align: center;
+}
+.number_33{
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 70px;
+
+    color: #F5FBF2;
+}
+.items{
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+
+    color: #908294;
+}
