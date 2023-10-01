@@ -3,6 +3,7 @@
     margin-top: 150px;
 }
 .block_title_howItWorks{
+    position: relative;
     display: flex;
     justify-content: center;
     text-align: center;
